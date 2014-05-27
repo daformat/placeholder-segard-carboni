@@ -1,0 +1,86 @@
+// bower:scss
+// endbower
+
+@import 'reset';
+$green: #006778;
+$gold: #C59217;
+
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+}
+
+.hero-unit {
+    margin: 50px auto 50px auto;
+    width: 600px;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 30px;
+    background-color: #eee;
+    border-radius: 6px;
+    padding: 60px;
+    
+    text-align:center;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+h1, h2, h3, h4, h5, h6, strong{
+    font-weight: bolder;
+}
+
+
+
+h1, h2, h3{
+    text-indent: -9999px;
+    margin: 25px 0;
+}
+
+h1{
+    display: inline-block;
+    background-image: url(/images/logo-segard-carboni-administrateurs-judiciaires.png);
+    width: 306px;
+    height: 306px;
+}
+
+h2{
+    display: inline-block;
+    background-image: url(/images/logo-bauland-carboni-martinez-administrateurs-judiciaires.png);
+    width: 278px;
+    height: 101px;
+    margin-top: 45px;
+}
+
+h3{
+    display: inline-block;
+    background-image: url(/images/signature-bcm-administrateurs-judiciaires.png);
+    width: 374px;
+    height: 69px;
+}
+
+h4{
+    font-size: 22px;
+}
+
+.article{
+    margin-top: 45px;
+}
+
+p{
+    margin: 5px 0;
+}
+
+.btn{
+    display: block;
+    background-color: $green;
+    color: #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    margin: 25px 0;
+}
